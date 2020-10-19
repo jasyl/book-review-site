@@ -1,0 +1,57 @@
+.review {
+  background-color: white;
+  padding: 40px;
+  margin: 40px;
+}
+
+.review ul {
+  border-bottom: solid 1px black;
+  padding-bottom: 10px;
+}
+
+li {
+  line-height: 1.2;
+}
+
+.review ul {
+  display: grid;
+}
+
+.date{
+  font-size: 14px;
+  color: grey;
+  line-height: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-bottom: 5px;
+}
+
+.author {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.intro {
+
+  padding: 0 40px;
+  margin: 40px 15px;
+  
+}
+
+.book-info {
+  display: flex;
+  margin-bottom: 50px;
+  align-content: flex-start;
+}
+
+.book-info img {
+  width: 150px;  
+}
+
+.description h3 {
+  font-size: 20px;
+}
